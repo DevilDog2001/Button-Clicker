@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.Bar{
+    background-color: rgb(188, 181, 181);
+    margin: 0 auto;
+    width: 860px;
+    height: 80px;
+}
+.nav{
+    width: 900px;
+    margin: 0 auto;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 20px;
+}
+.nav-links{
+    width: 600px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 30px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+#btn{
+    height: 32px;
+    width: 84px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 118, 203);
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-right: 45px;
+}
+.btn2{
+    height: 38px;
+    width: 94px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 200, 19);
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn3{
+    height: 28px;
+    width: 94px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 200, 19);
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#btn4{
+
+    height: 38px;
+    width: 180px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(78, 189, 98);
+    border: 2px solid black;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+    margin-left: 20px;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+.searchbar{
+    margin-left: -58px;
+    padding-right: 250px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+.col-2{
+    flex: 2;
+}
+.col,.col-2{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 900px;
+}
+.ninja{
+    font-size: 40px;
+    margin-top: 20px;
+}
+h1{
+    margin-left: 25px;
+}
+.noun{
+    margin-left: 35px;
+}
+.plural{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.context{
+    margin-top: -5px;
+    margin-left: 25px;
+}
+.context2{
+
+}
+a{
+}
+.container3{
+    height: 210px;
+    width: 110%;
+    border: 2px solid black;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border: 2px  solid rgb(0, 0, 0);
+    width: 80%;
+    height: 150px;
+    margin-left: 50px;
+}
+.card2{
+    background-color: white;
+    border: 2px  solid rgb(0, 0, 0);
+    width: 110%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 190px;
+}
+.defined{
+    margin: 20px;
+    font-size: 23px;
+}
+.text1{
+    display: flex;
+    justify-content: space-between;
+}
+.side1{
+    font-size: 20px;
+    margin-right: 180px;
+    margin-top: -15px;
+}
+.side2{
+    font-size: 20px;
+    margin-right: 180px;
+    margin-top: -35px;
+}

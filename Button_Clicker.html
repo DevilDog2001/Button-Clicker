@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/Button_Clicker.css">
+    <script src="./Js/Button_Clicker.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="Bar">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input class="searchbar" type="text" search = "search" placeholder="Search"></li>
+                <li><button id="btn" onclick="logout()">Login</button></li>
+            </ul>
+        </div>
+    </div>
+    <div id="container">
+        <div class="row">
+            <!--Left pic-->
+            <div class="col-2">
+                <div class ="Container2">
+                    <div class= "container3">
+                        <h1 class="ninja">ninja</h1>
+                        <h2 class="noun">noun</h2>
+                        <div class="text1">
+                            <p class="plural">Plural:ninjas</p>
+                            <p class="side1">A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                        </div>
+                        <button type="button" onclick="alerted()" class="btn2">13 Likes</button>
+                    </div>
+                    <div class="card2">
+                        <div class="context2">
+                            <h1 class="ninja">ninja</h1>
+                            <h2 class="noun">noun</h2>
+                            <div class="text1">
+                                <p class="plural">Plural:ninjas</p>
+                                <p class="side2">A <a href="#">programmer</a>who breaks<br>down problems with <a href="#">zen</a>-like<br>focus</p>
+                            </div>
+                            <button type="button" onclick="alerted()"class="btn3">37 Likes</button>
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+            <!--Right pic-->
+                <div class="col">
+                    <div class="card">
+                        <p class ="defined"><strong>Dojonary is <br>defined by YOU</strong></p>
+                        <button type="button" id="btn4" onclick="removePTag()"">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
